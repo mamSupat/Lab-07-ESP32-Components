@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
-#include "esp_system.h"
 #include "esp_log.h"
 #include "sensor.h"
 #include "display.h"
 
-static const char *TAG = "MAIN";
+static const char *TAG = "LAB7-2";
 
 void app_main(void)
 {
-    ESP_LOGI(TAG, "🚀 Lab 6.2: Multiple Source Files Demo");
-    ESP_LOGI(TAG, "📍 Main function from file: %s, line: %d", __FILE__, __LINE__);
-    ESP_LOGI(TAG, "ESP-IDF Version: %s", esp_get_idf_version());
+    ESP_LOGI(TAG, "🚀 Lab 7-2: Managed Component from GitHub URL Demo Started");
+    ESP_LOGI(TAG, "📥 Using components from: https://github.com/APPLICATIONS-OF-MICROCONTROLLERS/Lab7_Components");
     
     // Initialize modules
     sensor_init();

@@ -11,7 +11,6 @@
 6. touch components/Display/display.c
 
 คำสั่งสำหรับการ build
-
 idf.py build
 
 รูปภาพแสดงผลลัพธ์ก่อนการเพิ่ม Display
@@ -19,6 +18,7 @@ idf.py build
 
 รูปภาพแสดงผลลัพธ์หลังการเพิ่ม Display
 <img width="926" height="664" alt="Screenshot 2025-08-17 141104" src="https://github.com/user-attachments/assets/4f0f1104-4d40-44ed-a6c6-ebbcb4bb4f93" />
+
 
 
 
